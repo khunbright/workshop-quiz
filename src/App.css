@@ -1,0 +1,39 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu,.quiz,.score{
+  width: 500px;
+  height: 500px;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.menu button,.quiz button,.score button{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover{
+  background:#9292D1;
+  color: #fff;
+}
+
+button:active{
+  cursor:progress
+}
+
+
